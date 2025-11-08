@@ -99,7 +99,9 @@ let package = Package(
             name: "EmbraceCommonInternal",
             dependencies: [
                 "EmbraceAtomicsShim",
-                .product(name: "OpenTelemetrySdk", package: "opentelemetry-swift-core")
+                .product(name: "OpenTelemetrySdk",
+                         package: "opentelemetry-swift-core",
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
             ],
             exclude: ["Atomic/README.md"]
         ),
@@ -122,7 +124,9 @@ let package = Package(
             name: "EmbraceSemantics",
             dependencies: [
                 "EmbraceCommonInternal",
-                .product(name: "OpenTelemetrySdk", package: "opentelemetry-swift-core")
+                .product(name: "OpenTelemetrySdk",
+                         package: "opentelemetry-swift-core",
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
             ]
         ),
 
@@ -132,7 +136,9 @@ let package = Package(
             dependencies: [
                 "EmbraceOTelInternal",
                 "EmbraceConfiguration",
-                .product(name: "OpenTelemetrySdk", package: "opentelemetry-swift-core")
+                .product(name: "OpenTelemetrySdk",
+                         package: "opentelemetry-swift-core",
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
             ]
         ),
         .testTarget(
@@ -181,7 +187,10 @@ let package = Package(
             dependencies: [
                 "EmbraceCommonInternal",
                 "EmbraceSemantics",
-                .product(name: "OpenTelemetrySdk", package: "opentelemetry-swift-core")
+                .product(name: "OpenTelemetrySdk",
+                         package: "opentelemetry-swift-core",
+                        // Map the SDK’s `import OpenTelemetryApi` to a unique module name
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
             ]
         ),
         .testTarget(
