@@ -3,6 +3,7 @@
 //
 
 import OpenTelemetryApi137
+
 #if !EMBRACE_COCOAPOD_BUILDING_SDK
     import EmbraceCommonInternal
     import EmbraceStorageInternal

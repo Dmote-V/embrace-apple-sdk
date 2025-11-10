@@ -4,6 +4,7 @@
 
 import Foundation
 import OpenTelemetryApi137
+
 #if !EMBRACE_COCOAPOD_BUILDING_SDK
     import EmbraceOTelInternal
     import EmbraceCommonInternal

@@ -2,8 +2,10 @@
 //  Copyright © 2024 Embrace Mobile, Inc. All rights reserved.
 //
 #if canImport(UIKit) && !os(watchOS)
+
     import UIKit
     import SwiftUI
+
     #if !EMBRACE_COCOAPOD_BUILDING_SDK
         import EmbraceCaptureService
         import EmbraceCommonInternal
@@ -11,7 +13,9 @@
         import EmbraceConfigInternal
         import EmbraceConfiguration
     #endif
-    import OpenTelemetryApi137    import Foundation
+    
+    import OpenTelemetryApi137
+    import Foundation
 
     @objc(EMBViewCaptureService)
     public final class ViewCaptureService: CaptureService, UIViewControllerHandlerDataSource {
