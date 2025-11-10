@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import OpenTelemetryApi
+import OpenTelemetryApi137
 
 public struct RecordingSpanEvent: SpanEvent, Codable, Equatable {
     public let name: String

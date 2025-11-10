@@ -2,7 +2,7 @@
 //  Copyright © 2024 Embrace Mobile, Inc. All rights reserved.
 //
 
-import OpenTelemetryApi
+import OpenTelemetryApi137
 
 public struct RecordingSpanLink: Codable, Equatable {
     public let traceId: TraceId

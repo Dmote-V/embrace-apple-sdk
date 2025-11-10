@@ -2,7 +2,7 @@
 //  Copyright © 2024 Embrace Mobile, Inc. All rights reserved.
 //
 
-import OpenTelemetryApi
+import OpenTelemetryApi137
 import OpenTelemetrySdk
 
 public protocol SpanLink {

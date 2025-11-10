@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import OpenTelemetryApi
+import OpenTelemetryApi137
 
 class EmbraceLoggerBuilder: LoggerBuilder {
     let sharedState: EmbraceLogSharedState

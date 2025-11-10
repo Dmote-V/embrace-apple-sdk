@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import OpenTelemetryApi
+import OpenTelemetryApi137
 import OpenTelemetrySdk
 
 /// Typealias created to abstract away the `AttributeValue` from `OpenTelemetryApi`,
