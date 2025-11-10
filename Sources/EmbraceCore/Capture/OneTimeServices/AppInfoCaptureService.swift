@@ -6,7 +6,7 @@ import Foundation
 
 #if !EMBRACE_COCOAPOD_BUILDING_SDK
     import EmbraceCommonInternal
-    import OpenTelemetryApi
+    import OpenTelemetryApi137
     import EmbraceObjCUtilsInternal
 #endif
 
