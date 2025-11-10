@@ -101,7 +101,7 @@ let package = Package(
                 "EmbraceAtomicsShim",
                 .product(name: "OpenTelemetrySdk",
                          package: "opentelemetry-swift-core",
-                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"]) //
             ],
             exclude: ["Atomic/README.md"]
         ),
@@ -126,7 +126,7 @@ let package = Package(
                 "EmbraceCommonInternal",
                 .product(name: "OpenTelemetrySdk",
                          package: "opentelemetry-swift-core",
-                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"]) //
             ]
         ),
 

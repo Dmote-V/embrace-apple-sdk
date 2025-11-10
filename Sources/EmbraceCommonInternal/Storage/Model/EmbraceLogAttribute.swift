@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import OpenTelemetryApi
+import OpenTelemetryApi137
 
 public enum EmbraceLogAttributeType: Int {
     case string, int, double, bool
