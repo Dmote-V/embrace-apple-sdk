@@ -56,7 +56,7 @@ class EmbraceLogRecordBuilder: EventBuilder {
         return self
     }
 
-    func setData(_ attributes: [String: OpenTelemetryApi.AttributeValue]) -> Self {
+    func setData(_ attributes: [String: OpenTelemetryApi137.AttributeValue]) -> Self {
         return setAttributes(attributes)
     }
 

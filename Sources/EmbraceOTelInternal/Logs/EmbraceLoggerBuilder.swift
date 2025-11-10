@@ -42,7 +42,7 @@ class EmbraceLoggerBuilder: LoggerBuilder {
         return self
     }
 
-    func build() -> OpenTelemetryApi.Logger {
+    func build() -> OpenTelemetryApi137.Logger {
         EmbraceLogger(sharedState: sharedState, attributes: attributes)
     }
 }
