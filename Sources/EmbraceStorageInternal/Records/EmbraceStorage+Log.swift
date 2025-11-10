@@ -31,7 +31,7 @@ extension EmbraceStorage {
         severity: LogSeverity,
         body: String,
         timestamp: Date = Date(),
-        attributes: [String: OpenTelemetryApi.AttributeValue]
+        attributes: [String: OpenTelemetryApi137.AttributeValue]
     ) -> EmbraceLog? {
         if let log = LogRecord.create(
             context: coreData.context,

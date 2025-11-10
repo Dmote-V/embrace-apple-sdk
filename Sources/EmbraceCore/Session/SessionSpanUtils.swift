@@ -128,7 +128,7 @@ extension SpanPayload {
     }
 }
 
-extension OpenTelemetryApi.Status {
+extension OpenTelemetryApi137.Status {
     static func sessionCrashedError() -> Status {
         return Status.error(description: "Session crashed!")
     }

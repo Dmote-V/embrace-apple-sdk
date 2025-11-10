@@ -67,7 +67,7 @@ public final class HangCaptureService: CaptureService {
     let limitData: EmbraceMutex<MutableLimitData>
 
     private let spanQueue = DispatchQueue(label: "io.embrace.hang.service")
-    private var span: OpenTelemetryApi.Span?
+    private var span: OpenTelemetryApi137.Span?
 
     public var limits: HangLimits {
         get {
