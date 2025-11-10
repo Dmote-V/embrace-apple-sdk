@@ -3,7 +3,8 @@
 //
 
 import Foundation
-import OpenTelemetryApi137import OpenTelemetrySdk
+import OpenTelemetryApi137
+import OpenTelemetrySdk
 
 #if !EMBRACE_COCOAPOD_BUILDING_SDK
     import EmbraceCommonInternal
