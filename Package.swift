@@ -138,7 +138,7 @@ let package = Package(
                 "EmbraceConfiguration",
                 .product(name: "OpenTelemetrySdk",
                          package: "opentelemetry-swift-core",
-                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"]) //
             ]
         ),
         .testTarget(
@@ -190,7 +190,7 @@ let package = Package(
                 .product(name: "OpenTelemetrySdk",
                          package: "opentelemetry-swift-core",
                         // Map the SDK’s `import OpenTelemetryApi` to a unique module name
-                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"])
+                         moduleAliases: ["OpenTelemetryApi": "OpenTelemetryApi137"]) //
             ]
         ),
         .testTarget(
