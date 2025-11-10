@@ -4,8 +4,7 @@
 
 import Darwin
 import Foundation
-import OpenTelemetryApi
-
+import OpenTelemetryApi137
 #if !EMBRACE_COCOAPOD_BUILDING_SDK
     import EmbraceCaptureService
     import EmbraceCommonInternal

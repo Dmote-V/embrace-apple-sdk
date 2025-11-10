@@ -3,8 +3,7 @@
 //  Copyright © 2025 Embrace Mobile, Inc. All rights reserved.
 //
 
-import OpenTelemetryApi
-import SwiftUI
+import OpenTelemetryApi137import SwiftUI
 
 /// The environment key used to store a single `EmbraceTraceViewContext` instance
 /// throughout the SwiftUI view hierarchy.

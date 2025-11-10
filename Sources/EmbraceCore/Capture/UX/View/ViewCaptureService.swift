@@ -11,8 +11,7 @@
         import EmbraceConfigInternal
         import EmbraceConfiguration
     #endif
-    import OpenTelemetryApi
-    import Foundation
+    import OpenTelemetryApi137    import Foundation
 
     @objc(EMBViewCaptureService)
     public final class ViewCaptureService: CaptureService, UIViewControllerHandlerDataSource {

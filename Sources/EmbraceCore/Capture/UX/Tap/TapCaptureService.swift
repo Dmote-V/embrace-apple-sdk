@@ -9,8 +9,7 @@
         import EmbraceOTelInternal
         import EmbraceSemantics
     #endif
-    import OpenTelemetryApi
-
+    import OpenTelemetryApi137
     /// Service that generates OpenTelemetry span events for taps on the screen.
     /// Note that any taps done on a keyboard view will be automatically ignored.
     @objc(EMBTapCaptureService)
